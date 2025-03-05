@@ -1,0 +1,11 @@
+**/build
+!**/src/main/**/build/
+!**/src/test/**/build/
+.*
+!.gitignore
+!.editorconfig
+!.gitattributes
+*.iml
+gradle
+gradlew
+gradlew.bat
