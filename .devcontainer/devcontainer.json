@@ -27,6 +27,8 @@
       "extensions": [
         "vscjava.vscode-java-pack",
         "richardwillis.vscode-gradle-extension-pack",
+        "mellowmarshmallow.groovy",
+        "marlon407.code-groovy"
       ],
     }
   },
