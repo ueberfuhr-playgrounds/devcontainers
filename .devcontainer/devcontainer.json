@@ -1,6 +1,6 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-  "name": "Java",
+  "name": "groovy-gradle",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
   "features": {
@@ -22,6 +22,12 @@
   "customizations": {
     "jetbrains": {
       "backend": "IntelliJ",
+    },
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "richardwillis.vscode-gradle-extension-pack",
+      ],
     }
   },
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
