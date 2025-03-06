@@ -11,6 +11,9 @@
       "installGroovy": "true"
     }
   },
+  containerEnv: {
+    "JAVA_HOME": "/usr/lib/jvm/msopenjdk-current"
+  },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
     8080
@@ -21,7 +24,7 @@
   // Configure tool-specific properties.
   "customizations": {
     "jetbrains": {
-      "backend": "IntelliJ",
+      "backend": "IntelliJ"
     },
     "vscode": {
       "extensions": [
@@ -29,9 +32,9 @@
         "richardwillis.vscode-gradle-extension-pack",
         "mellowmarshmallow.groovy",
         "marlon407.code-groovy"
-      ],
+      ]
     }
-  },
+  }
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
 }
